@@ -34,7 +34,7 @@ const Heading: React.FC = () => {
   }, []);
 
   return (
-    <div className="bg-purple py-2">
+    <div className="bg-purple py-2 hidden lg:block">
       <section className="max-w-[1000px] mx-auto flex items-center justify-between">
         <div>
           <h3 className="text-white font-Inter font-semibold text-xs">
