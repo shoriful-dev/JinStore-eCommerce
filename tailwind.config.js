@@ -8,9 +8,10 @@ export default {
       },
       colors: {
         textColor: '#6B7280',
+        purple: '#634C9F',
       },
       fontFamily: {
-        Inter: "Inter",
+        Inter: 'Inter',
       },
     },
   },
