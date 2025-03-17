@@ -44,22 +44,22 @@ const Heading: React.FC = () => {
         </div>
         <div>
           <h3 className="text-xs text-white font-Inter font-medium">
-            Until the end of the sale:{' '}
+            Until the end of the sale:
             <span className="text-white font-bold px-2 text-lg">
               {timeLeft.days}
-            </span>{' '}
+            </span>
             days
             <span className="text-white font-bold px-2 text-lg">
               {timeLeft.hours}
-            </span>{' '}
+            </span>
             hours
             <span className="text-white font-bold px-2 text-lg">
               {timeLeft.minutes}
-            </span>{' '}
+            </span>
             minutes
             <span className="text-white font-bold px-2 text-lg">
               {timeLeft.seconds}
-            </span>{' '}
+            </span>
             sec
           </h3>
         </div>
