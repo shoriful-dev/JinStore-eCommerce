@@ -6,9 +6,14 @@ import { IoLocationOutline } from 'react-icons/io5';
 import { LuSearch } from 'react-icons/lu';
 import { FaRegHeart, FaRegUser } from 'react-icons/fa';
 import Flex from '../components/Flex';
+import { FiShoppingCart } from 'react-icons/fi';
 
-const NotificationBadge = ({ count }) => (
-  <span className="absolute -top-1 -right-1 bg-red-600 text-white text-xs w-5 h-5 flex items-center justify-center rounded-full">
+interface NotificationBadgeProps {
+  count: number;
+}
+
+const NotificationBadge: React.FC<NotificationBadgeProps> = ({ count }) => (
+  <span className="absolute -top-1 -right-1 bg-red-600 text-white text-xs w-4 h-4 flex items-center justify-center rounded-full">
     {count}
   </span>
 );
@@ -42,29 +47,39 @@ const Menu: React.FC = () => {
             <input
               type="text"
               placeholder="Search for products, categories or brands..."
-              className="w-[860px] h-[48px] bg-[#F3F4F6] px-5 text-[#6B7280] rounded-lg outline-none"
+              className="w-[800px] h-[48px] bg-[#F3F4F6] px-5 text-[#6B7280] rounded-lg outline-none"
             />
-            <div className="">
-              <LuSearch className="text-2xl absolute top-3 right-[-25px]" />
+            <div>
+              <LuSearch className="text-2xl absolute top-3 right-[15px]" />
             </div>
           </div>
           {/* Menu Right Part */}
-          <div className=" flex space-x-5">
+          <div className=" flex space-x-10">
             <div className="flex space-x-5 items-center">
               <div>
                 <FaRegUser className="text-2xl" />
               </div>
-              <h3 className="font-Inter text-[11px] text-[#030712] w-[60px]">
-                Sign In
-                <span className="font-Inter text-[13px] font-semibold">
-                  Account
-                </span>
-              </h3>
-            </div>
-            <div className="">
               <div className="">
-                <FaRegHeart className="text-2xl" />
-                <NotificationBadge count={0} />
+                <h3 className="font-Inter text-[11px] text-[#030712] w-[60px]">
+                  Sign In
+                  <span className="font-Inter text-[13px] font-semibold">
+                    Account
+                  </span>
+                </h3>
+              </div>
+            </div>
+            <div className="flex space-x-10">
+              <div className="relative">
+                <div className="absolute top-0 right-0">
+                  <FaRegHeart className="text-2xl" />
+                  <NotificationBadge count={0} />
+                </div>
+              </div>
+              <div className="relative">
+                <div className="absolute top-0 right-0">
+                  <FiShoppingCart className="text-2xl" />
+                  <NotificationBadge count={0} />
+                </div>
               </div>
             </div>
           </div>
