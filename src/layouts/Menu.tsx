@@ -22,7 +22,7 @@ const Menu: React.FC = () => {
   return (
     <nav>
       <Container>
-        <Flex className="justify-between items-center">
+        <Flex className="justify-between items-center hidden lg:flex">
           {/* Menu Left Part */}
           <div className=" flex items-center py-5 space-x-5">
             <div>
