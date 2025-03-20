@@ -60,9 +60,10 @@ const Menu: React.FC = () => {
                 <FaRegUser className="text-2xl" />
               </div>
               <div className="">
-                <h3 className="font-Inter text-[11px] text-[#030712] w-[60px]">
+                <h3 className="font-Inter text-[11px] text-[#030712]">
                   Sign In
-                  <span className="font-Inter text-[13px] font-semibold">
+                  <br />
+                  <span className="font-Inter text-[13px] font-bold">
                     Account
                   </span>
                 </h3>
