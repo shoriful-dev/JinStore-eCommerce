@@ -20,7 +20,7 @@ const NotificationBadge: React.FC<NotificationBadgeProps> = ({ count }) => (
 
 const Menu: React.FC = () => {
   return (
-    <nav>
+    <nav className="border-b">
       <Container>
         <Flex className="justify-between items-center hidden lg:flex">
           {/* Menu Left Part */}
