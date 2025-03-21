@@ -7,7 +7,7 @@ const Navber: React.FC = () => {
     <nav className='border-b'>
       <Container>
         <div className=" flex justify-between items-center py-3">
-          {/* <div className="">
+          <div className="">
             <ul className="flex space-x-5">
               <span className="flex items-center space-x-1">
                 <li className="text-[15px] font-semibold font-Inter">Home</li>
@@ -40,7 +40,7 @@ const Navber: React.FC = () => {
                 <IoIosArrowDown className="mt-1" />
               </span>
             </ul>
-          </div> */}
+          </div>
           {/* <div className="flex space-x-8">
             <span className="flex items-center space-x-1">
               <h3 className="text-[15px] font-semibold font-Inter">
