@@ -41,7 +41,7 @@ const Navber: React.FC = () => {
               </span>
             </ul>
           </div>
-          {/* <div className="flex space-x-8">
+          <div className="flex space-x-8">
             <span className="flex items-center space-x-1">
               <h3 className="text-[15px] font-semibold font-Inter">
                 Trending Products
@@ -55,7 +55,7 @@ const Navber: React.FC = () => {
                 <button className='text-[10px] font-bold font-Inter py-[1px] px-[4px] bg-red text-white rounded-md'>SALE</button>
               <IoIosArrowDown className='text-red'/>
             </span>
-          </div> */}
+          </div>
         </div>
       </Container>
     </nav>
