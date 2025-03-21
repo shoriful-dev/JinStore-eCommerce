@@ -9,6 +9,7 @@ export default {
       colors: {
         textColor: '#6B7280',
         purple: '#634C9F',
+        red: '#DC2626',
       },
       fontFamily: {
         Inter: 'Inter',
