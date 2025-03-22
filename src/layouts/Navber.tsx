@@ -7,7 +7,7 @@ const Navber: React.FC = () => {
     <nav className="border-b">
       <Container>
         <div className=" flex justify-between items-center py-3">
-          <div className="">
+          <div>
             <ul className="flex space-x-5">
               <span className="flex items-center space-x-1">
                 <li className="text-[15px] font-semibold font-Inter">Home</li>
