@@ -4,7 +4,7 @@ import { IoIosArrowDown } from 'react-icons/io';
 
 const Navber: React.FC = () => {
   return (
-    <nav className='border-b'>
+    <nav className="border-b">
       <Container>
         <div className=" flex justify-between items-center py-3">
           <div className="">
@@ -52,8 +52,10 @@ const Navber: React.FC = () => {
               <h3 className="text-[15px] font-semibold font-Inter text-red">
                 Almost Finished
               </h3>
-                <button className='text-[10px] font-bold font-Inter py-[1px] px-[4px] bg-red text-white rounded-md'>SALE</button>
-              <IoIosArrowDown className='text-red'/>
+              <button className="text-[10px] font-bold font-Inter py-[1px] px-[4px] bg-red text-white rounded-md">
+                SALE
+              </button>
+              <IoIosArrowDown className="text-red" />
             </span>
           </div>
         </div>
