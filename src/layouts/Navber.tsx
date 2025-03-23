@@ -6,7 +6,7 @@ const Navber: React.FC = () => {
   return (
     <nav className="border-b">
       <Container>
-        <div className=" flex justify-between items-center py-3">
+        <div className=" flex justify-between items-center py-3 invisible lg:visible">
           <div>
             <ul className="flex space-x-5">
               <span className="flex items-center space-x-1">
