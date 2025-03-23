@@ -1,8 +1,13 @@
 import React from 'react'
+import Container from '../components/Container'
 
 const Banner: React.FC = () => {
   return (
-    <div>Banner</div>
+    <section>
+      <Container>
+        <div className=""></div>
+      </Container>
+    </section>
   )
 }
 
