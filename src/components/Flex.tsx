@@ -11,4 +11,4 @@ const Flex: React.FC<flexProps> = ({className, children}) => {
   )
 }
 
-export default Flex
+export default Flex;
