@@ -2,10 +2,10 @@ import React from 'react';
 import Container from '../components/Container';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import Slider from 'react-slick'
-import Image from '../components/Image'
-import Banner1 from '../assets/banner1.png'
-import Banner2 from '../assets/banner2.png'
+import Slider from 'react-slick';
+import Image from '../components/Image';
+import Banner1 from '../assets/banner1.png';
+import Banner2 from '../assets/banner2.png';
 
 
 const Banner: React.FC = () => {
