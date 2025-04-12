@@ -8,7 +8,7 @@ const router = createBrowserRouter(
       <Route path='/' element={<Home/>}/>
     </>
   )
-)
+);
 
 const App: React.FC = () => {
   return <RouterProvider router={router} />;
